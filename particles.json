@@ -1,0 +1,57 @@
+{
+    "particles":{
+        "number":{
+            "value":100
+        },
+        "color":{
+            "value":"#fff"
+        },
+        "shape":{
+            "type":"square",
+            "stroke":{
+                "width":1,
+                "color":"#000"
+            },
+            "image":{
+                "src":"https://www.iconspng.com/images/mobile-icon-white-on-black/mobile-icon-white-on-black.jpg"
+            }
+        },
+        "opacity":{
+            "value":0.5,
+            "random":true,
+        "anime":{
+            "enable":true,
+            "speed":10
+        }        
+    },
+    "size":{
+        "value":5,
+        "random":true
+    },
+    "move":{
+        "enable":true,
+        "speed":2,
+        "direction":"none",
+        "straight":false
+    }
+    },
+    "interactivity":{
+        "events":{
+            "onhover":{
+                "enable":true,
+                "mode":"repulsive"
+
+            },
+            "onclick":{
+                "enable":true
+            }
+        },
+        "modes":{
+            "repulsive":{
+                "distance":1,
+                "duration":0.04
+            }
+        }
+    }
+
+}

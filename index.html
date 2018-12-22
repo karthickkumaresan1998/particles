@@ -1,0 +1,36 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Particles login</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div id="particles-js">
+        <div id="login">
+            <form>
+                <div>
+                    <label for="usename"></label>
+                </br>
+                <input type="text" placeholder="Username">
+                    </div>
+                    <div>
+                    <label for="password"></label>
+                </br>
+                <input type="text" placeholder="password">
+                </div>
+                <input type="submit" value="login">
+            </form>
+        </div>
+    </div>
+
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
+    </script>
+<script>
+particleJS.load('particles-js','particles.json',function(){
+    console.log('particles.json loaded...');
+});</script>    
+</body>
+    </html>
